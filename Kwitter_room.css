@@ -1,0 +1,95 @@
+html, body{
+
+height:100%;
+margin:0;
+
+}
+
+#logout_button{
+
+margin:5px;
+font-size:20px;
+float:right;
+transition: transform 0.5s;
+
+}
+
+#logout_button:hover{
+
+transform: scale(1.2);
+
+}
+
+#header{
+
+color: white;
+font-family: 'Yeon Sung';
+font-size: 45px;
+letter-spacing: 10px;
+margin-top: 80px;
+    
+}
+    
+body{
+    
+background-image: linear-gradient(to top right, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    
+}
+
+#header img{
+    
+width: 60px;
+margin-left: 15px;
+    
+}
+
+#trending_rooms{
+
+font-size: 50px;
+font-family: 'Tangerine', cursive;
+margin-bottom: 20px;
+
+}
+
+label{
+
+margin-top: 10px;
+margin-bottom:10px;
+font-size: 20px;
+color:rgb(204, 230, 255);
+font-family:cursive;
+    
+}
+
+[placeholder]:focus::-webkit-input-placeholder{
+
+transition: text-indent 3.9s 0.6s ease; 
+text-indent: -100%;
+opacity: 1;
+color: rgb(15, 79, 255);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#add_room{
+
+width: 50%;
+border-radius: 5px;
+margin-bottom:10px;
+margin-top: 15px;
+background-image: linear-gradient(to right, #85c0ff 0%,#0384fc  50%, #85c0ff 100%);
+border-style: none;
+font-size: 20px;
+font-family: 'Prata', serif;
+color: rgb(255, 255, 255);
+padding-top: 7px;
+padding-bottom: 5px;
+transition:transform 1s;
+
+}
+
+#add_room:hover{
+
+transform: scale(1.50);
+        
+}

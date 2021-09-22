@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Let's Chat</title>
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+<script src="Kwitter_room.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+
+<body>
+<div class="container">
+<button id="logout_button" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()" type="button">_Logout</button>
+<center>
+
+<h1 id="header">Let's Chat<sup><img src="Message Icon.png"></sup></h1><br><br>
+<h3 id="User name display"></h3>
+<div class="form-group">
+<label>Add Room : </label>
+<input class="form-control" id="room_name_input" type="text" placeholder="Room name">
+<button id="add_room" type="button" class="btn btn-success" onclick="add_room()">Add Room</button>
+</div>
+<br><br><h4 id="trending_rooms">Trending Rooms</h4><br><br>
+<div id="output"></div>
+
+</center>
+</div>
+</body>
+</html>
