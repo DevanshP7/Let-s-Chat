@@ -1,6 +1,7 @@
 html, body{
 
-height: 100%;
+height:100%;
+width:100%;
 margin: 0;
 
 }
@@ -35,7 +36,6 @@ border-radius: 15px;
 float:none;
 border-top:rgba(255, 255, 255, 0.787) 10px solid;
 border-right:rgba(255, 255, 255, 0.787) 10px solid;
-margin-left: 150px;
 
 }
 
@@ -44,8 +44,8 @@ margin-left: 150px;
 width: 150px;
 height: 150px;
 margin-top: 40px;
-border-radius: 100px;
-border:rgb(103, 161, 255) 5px dashed;
+border-radius: 80px;
+border:rgb(103, 161, 255) 5px double;
 
 }
 
@@ -67,7 +67,7 @@ transition: transform 0.5s;
 
 #login_button:hover{
 
-transform: scale(1.25);
+transform: scale(1.20);
 
 }
 
@@ -104,3 +104,15 @@ color: rgb(15, 79, 255);
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+#login_input{
+
+width:96%;
+height:30px;
+margin-bottom: 10px;
+border-radius: 10px;
+border-width: 0px;
+padding:10px;
+
+}
+

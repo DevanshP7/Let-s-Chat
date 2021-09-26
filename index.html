@@ -15,6 +15,10 @@
 <script src="Kwitter.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
 </head>
 
 <body class="body_background">
@@ -24,17 +28,18 @@
 <h1 id="header">Let's Chat<sup><img src="Message Icon.png"></sup></h1>
 <br><br>
 
-<div class="col-lg-8 col-md-9 col-sm-7 col-xs-11 login_div">
+<div class="login_div">
 
 <img src="Let's Chat.png" class="logo">
 <h3 id="quote">Be ready to explore the world</h3>
 <h4 id="chat">Let's chat by Loging In</h4>
-<label>User Name :</label>
+<div class="form-group">
+<label>User Name :</label><br>
 <input id="login_input" type="text" class="form-control" placeholder="User name">
 <br>
 <button type="button" id="login_button" onclick="add_user()">Log In</button>
 <br>
-
+</div>
 </div>
 
 </center>
