@@ -80,6 +80,6 @@ function add_like(message_id) {
 
 function back() {
 
-    window.location.replace("kwitter_room.html");
+    window.location.replace("Kwitter_room.html");
 
 }
