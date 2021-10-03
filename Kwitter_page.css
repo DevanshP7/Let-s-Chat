@@ -1,0 +1,144 @@
+html, body{
+
+    height:100%;
+    width:100%;
+    margin:0;
+    
+}
+    
+#logout_button{
+    
+    margin:5px;
+    font-size:20px;
+    float:right;
+    transition: transform 0.5s;
+    
+}
+    
+#logout_button:hover{
+    
+    transform: scale(1.2);
+    
+}
+    
+#header{
+    
+    color: white;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+        
+}
+        
+body{
+        
+    background-image: linear-gradient(to top, #33a0f1, #2591d9, #33a0f1);
+    background-size:cover;
+    background-repeat:repeat;
+        
+}
+    
+#header img{
+        
+    width: 60px;
+    margin-left: 15px;
+        
+}
+
+#send_button{
+
+    width:50%;
+    border-radius: 5px;
+    margin-bottom:15px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right, #85c0ff 0%,#0384fc  50%, #85c0ff 100%);
+    border-style: none;
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
+    padding-bottom: 3px;
+    transition:transform 1s;
+    
+}
+    
+#send_button:hover{
+    
+    transform: scale(1.60);
+            
+}
+
+[placeholder]:focus::-webkit-input-placeholder{
+
+    transition: text-indent 3.9s 0.6s ease; 
+    text-indent: -100%;
+    opacity: 1;
+    color: rgb(15, 79, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#room_name_display{
+
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: white;
+
+}
+
+label{
+
+    font-size: 20px;
+    color: rgb(117, 138, 255);
+    font-family: cursive;
+
+}
+
+#input_div_message_section{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+#message_input{
+
+    width: 95%;
+
+}
+
+.user_tick{
+
+    width:20px;
+
+}
+
+#output{
+
+    background-color: rgba(255, 255, 255, 0.472);
+    border-radius: 20px;
+    width: 80%;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Scheherazade New', serif;
+    
+}
+
+#output h4{
+
+    font-size: 30px;
+
+}
+
+#output h5{
+
+    font-size: 25px;
+
+}
